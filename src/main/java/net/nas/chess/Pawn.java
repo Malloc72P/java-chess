@@ -4,4 +4,7 @@ public class Pawn extends ChessPiece{
     public Pawn(String color) {
         super(color);
     }
+    public Pawn() {
+        super("white");
+    }
 }
