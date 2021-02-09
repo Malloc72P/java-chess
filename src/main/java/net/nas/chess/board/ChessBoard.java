@@ -12,7 +12,14 @@ public class ChessBoard {
         board = new ArrayList<ChessPiece>();
     }
     public void addChessPiece(ChessPiece piece){
+        if(!isValidChessPiece(piece))
+            return;
         board.add(piece);
+    }
+    private boolean isValidChessPiece(ChessPiece piece){
+        if(piece == null)
+            return false;
+        return true;
     }
     public int size(){
         return board.size();
