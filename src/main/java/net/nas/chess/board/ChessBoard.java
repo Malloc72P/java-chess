@@ -1,4 +1,7 @@
-package net.nas.chess;
+package net.nas.chess.board;
+
+import net.nas.chess.piece.ChessPiece;
+import net.nas.chess.piece.Pawn;
 
 import java.util.ArrayList;
 import java.util.Optional;

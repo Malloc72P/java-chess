@@ -1,4 +1,4 @@
-package net.nas.chess;
+package net.nas.chess.piece;
 
 public abstract class ChessPiece {
     ChessPieceColor color;

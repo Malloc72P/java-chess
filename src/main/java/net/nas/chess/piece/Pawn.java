@@ -1,4 +1,4 @@
-package net.nas.chess;
+package net.nas.chess.piece;
 
 public class Pawn extends ChessPiece{
     public Pawn(ChessPieceColor color) {

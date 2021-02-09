@@ -1,5 +1,7 @@
-import net.nas.chess.ChessPieceColor;
-import net.nas.chess.Pawn;
+package chess;
+
+import net.nas.chess.piece.ChessPieceColor;
+import net.nas.chess.piece.Pawn;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
