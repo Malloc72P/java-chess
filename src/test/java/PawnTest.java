@@ -13,9 +13,18 @@ public class PawnTest {
             verifyPawn(tc);
         }
     }
+    @Test
+    @DisplayName("기본 생성자로 만들면 white로 설정되어야 합니다")
+    public void createDefaultPawn(){
+        verifyPawn();
+    }
 
     private void verifyPawn(final String color){
         Pawn pawn = new Pawn(color);
         assertEquals(color, pawn.getColor());
+    }
+    private void verifyPawn(){
+        Pawn pawn = new Pawn();
+        assertEquals("white", pawn.getColor());
     }
 }
