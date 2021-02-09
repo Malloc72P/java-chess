@@ -1,12 +1,13 @@
 package net.nas.chess;
 
 public abstract class ChessPiece {
-    String color;
+    ChessPieceColor color;
 
-    public ChessPiece(String color) {
+    public ChessPiece(ChessPieceColor color) {
         this.color = color;
     }
-    public String getColor(){
+
+    public ChessPieceColor getColor() {
         return color;
     }
 }
